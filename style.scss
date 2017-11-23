@@ -58,9 +58,8 @@ h3 {
 
 p { margin: 0 0 .7em 0; }
 
-
-a.btn {
-	display: inline-block;
+@mixin button_normal() {
+  display: inline-block;
 	padding: 4px 16px 2px 16px;
 	border-radius: 8px;
 	font-size: .9em;
@@ -68,21 +67,3 @@ a.btn {
 	text-decoration: none;
 	background-color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
