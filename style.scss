@@ -69,6 +69,11 @@ p { margin: 0 0 .7em 0; }
 	background-color: $background;
 }
 
+@mixin button_hover($text, $background) {
+  color: $text;
+  background-color: $background;
+}
+
 article a.btn {
   @include button_normal(#fff, #bcc428, #bcc428);
 }
