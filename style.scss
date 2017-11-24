@@ -76,8 +76,16 @@ p { margin: 0 0 .7em 0; }
 
 article a.btn {
   @include button_normal(#fff, #bcc428, #bcc428);
+
+  &:hover {
+    @include button_hover(#000, #fff);
+  }
 }
 
 aside a.btn {
   @include button_normal(#72b003, #fff, #fff);
+
+  &:hover {
+    @include button_hover(#fff, rgba(255,255,255,.3));
+  }
 }
