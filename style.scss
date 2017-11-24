@@ -70,9 +70,9 @@ p { margin: 0 0 .7em 0; }
 }
 
 article a.btn {
-  @include button_normal();
+  @include button_normal(#fff, #bcc428, #bcc428);
 }
 
 aside a.btn {
-  @include button_normal();
+  @include button_normal(#72b003, #fff, #fff);
 }
